@@ -1,0 +1,45 @@
+.App {
+  font-family: sans-serif;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+.header, .footer {
+  text-align: center;
+  padding: 15px;
+  background-color: #282c34;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.post-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.post-form input, .post-form textarea {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.post-form button {
+  padding: 10px;
+  background-color: #61dafb;
+  border: none;
+  cursor: pointer;
+}
+
+.post-list {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.post-item {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 5px;
+}

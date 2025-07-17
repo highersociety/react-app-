@@ -1,30 +1,24 @@
 # React Blog Manager
 
-A simple React single-page application for managing blog posts.
+This is a simple blog post manager built with React and a JSON Server backend.
 
 ## Features
-- Create and list blog posts
-- RESTful backend using `json-server`
-- Custom styling using CSS
 
-## Tech Stack
-- React
-- JSON Server
-- CSS
+- Add blog posts
+- View blog posts
+- Styled with CSS
 
-## How to Run
-### 1. Start the Backend
-```bash
-npx json-server db.json --port 3001
-```
+## Setup
 
-### 2. Start the Frontend
+1. Run the React App:
+
 ```bash
 npm install
 npm start
 ```
 
-## Project Structure
-- `/components`: Reusable React components
-- `App.js`: Main application logic
-- `db.json`: Mock REST API data
+2. In a separate terminal, run JSON Server:
+
+```bash
+npx json-server db.json --port 3001
+```

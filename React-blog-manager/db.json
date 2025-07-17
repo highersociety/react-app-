@@ -1,5 +1,9 @@
 {
   "posts": [
-    { "id": 1, "title": "Welcome!", "content": "This is the first blog post." }
+    {
+      "id": 1,
+      "title": "Welcome!",
+      "content": "This is the first blog post."
+    }
   ]
 }

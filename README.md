@@ -1,4 +1,3 @@
-# react-app-
 # React Blog Manager
 
 A simple React single-page application for managing blog posts.
@@ -16,7 +15,7 @@ A simple React single-page application for managing blog posts.
 ## How to Run
 ### 1. Start the Backend
 ```bash
-npx json-server --watch db.json --port 3001
+npx json-server db.json --port 3001
 ```
 
 ### 2. Start the Frontend
@@ -29,6 +28,3 @@ npm start
 - `/components`: Reusable React components
 - `App.js`: Main application logic
 - `db.json`: Mock REST API data
-
-## Deployment
-Deployed on Netlify: [Live Site URL here]
